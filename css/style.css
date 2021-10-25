@@ -13,6 +13,7 @@
 
 section {
   padding-top: 5rem;
+  width: relative;
 }
 
 .navbar a {
