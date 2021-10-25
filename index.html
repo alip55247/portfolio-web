@@ -39,6 +39,9 @@
                         <a class="nav-link" href="#projects">Projects</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#certificates">Certificates</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
@@ -116,7 +119,7 @@
                             <img src="img/projects/2.png" class="card-img-top" alt="project 2">
                         </a>
                         <div class="card-body">
-                            <p class="card-text">Ini merupakan project kedua saya setelah membuat website portfolio, website backend ini dibuat menggunakan Framework Laravel versi 8.48.0, Authentication menggunakan Laravel Fortify, RESTful API, RajaOngkir, Payment Gateway Midtrans, dan Json Web Token(JWT)</p>
+                            <p class="card-text">Ini merupakan project kedua saya setelah membuat website portfolio, website backend ini dibuat menggunakan Framework Laravel versi 8.48.0, Authentication menggunakan Laravel Fortify dan Json Web Token(JWT), RESTful API, RajaOngkir, dan Payment Gateway Midtrans</p>
                         </div>
                     </div>
                 </div>
@@ -140,6 +143,76 @@
     </section>
     <!-- End Projects -->
 
+    <!-- Certificates -->
+        <section id="certificates">
+            <div class="container">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>My Certificates</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                                <img src="https://drive.google.com/uc?id=1_J9XqlcYxCf7eeJXQ1LXkKtyZCVt-GNW" class="card-img-top" alt="certificate 1">
+                            <div class="card-body">
+                                <p class="card-text">Sertifikat membuat aplikasi untuk pemula</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                                <img src="https://drive.google.com/uc?id=1FIOsIsG_L2CtAnFGWbB_sVUUlR1bCPFw" class="card-img-top" alt="certificate 2">
+                            <div class="card-body">
+                                <p class="card-text">Pemrograman berbasi web menggunakan PHP framework codeigniter</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                                <img src="https://drive.google.com/uc?id=1eEeL949FDYn_8DClA8dxNK0tI3EjH6i5" class="card-img-top" alt="certificate 3">
+                            <div class="card-body">
+                                <p class="card-text">Cloud practitioner essentials (belajar dasar AWS cloud)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="https://drive.google.com/uc?id=1237Tvr9oJq3roRxqxlI81JVNFLaMAXAx" class="card-img-top"
+                                alt="certificate 4">
+                            <div class="card-body">
+                                <p class="card-text">Bakti sosial mahasiswa STMIK pontianak 2017/2018</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="https://drive.google.com/uc?id=1h_qX47gJ0D6Zd5G0tsy8OSxhVgn2p74k" class="card-img-top"
+                                alt="certificate 5">
+                            <div class="card-body">
+                                <p class="card-text">Certificate in database administration essentials</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3">
+                        <div class="card">
+                            <img src="https://drive.google.com/uc?id=1Evu_zUWLMi2XzS7gHznXdqe72zUVSQ6H" class="card-img-top"
+                                alt="certificate 6">
+                            <div class="card-body">
+                                <p class="card-text">Belajar membuat aplikasi kognitif</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#e2edff" fill-opacity="1"
+                    d="M0,192L48,181.3C96,171,192,149,288,138.7C384,128,480,128,576,160C672,192,768,256,864,245.3C960,235,1056,149,1152,117.3C1248,85,1344,107,1392,117.3L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+                </path>
+            </svg>
+        </section>
+    <!-- End Certificates -->
+
     <!-- Contact -->
     <section id="contact">
         <div class="container">
@@ -150,35 +223,42 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6">
-                    <form>
+                    <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+                        <strong>Terimakasih!</strong> Pesan anda sudah berhasil terkirim.
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                    <form name="portfolio-contact-alip">
                         <div class="mb-3">
                             <label for="name" class="form-label">Nama Lengkap</label>
-                            <input type="text" class="form-control" id="name" aria-describedby="name">
+                            <input type="text" class="form-control" name="nama" id="name" aria-describedby="name">
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" aria-describedby="email">
+                            <input type="email" class="form-control" name="email" id="email" aria-describedby="email">
                         </div>
                         <div class="mb-3">
                             <label for="pesan" class="form-label">Pesan</label>
-                            <textarea class="form-control" id="pesan" rows="3"></textarea>
+                            <textarea class="form-control" name="pesan" id="pesan" rows="3"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Kirim</button>
+                        <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+                        <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                            Loading...
+                        </button>
                     </form>
                 </div>
             </div>
         </div>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#e2edff" fill-opacity="1"
-                d="M0,288L40,282.7C80,277,160,267,240,261.3C320,256,400,256,480,240C560,224,640,192,720,186.7C800,181,880,203,960,218.7C1040,235,1120,245,1200,234.7C1280,224,1360,192,1400,176L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+            <path fill="#ffffff" fill-opacity="1"
+                d="M0,0L48,37.3C96,75,192,149,288,154.7C384,160,480,96,576,96C672,96,768,160,864,197.3C960,235,1056,245,1152,250.7C1248,256,1344,256,1392,256L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
             </path>
         </svg>
     </section>
     <!-- End Contact -->
 
     <!-- Footer -->
-<footer class="footer text-center text-white">
-
+<footer class="footer text-center text-white fixed-bottom">
     <!-- Copyright -->
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
         <!-- <p>Date/Time: <span id="datetime"></span></p> -->
@@ -187,7 +267,6 @@
     </div>
     <!-- Copyright -->
 </footer>
-
     <!-- End Footer -->
 
     <!-- JavaScript -->
@@ -200,6 +279,34 @@
     <script type="text/javascript" src="js/script.js"></script>
 
     <!-- <script>var dt = new Date(); document.getElementById("datetime").innerHTML = dt.toLocaleString();</script> -->
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxQcC_5jGuzUq9SXJUI8Sg5dhmMOaosBOc-C_cE7PfsDyyzNXAtvXp58QGANnFfCbipIQ/exec'
+        const form = document.forms['portfolio-contact-alip'];
+        const btnKirim = document.querySelector('.btn-kirim');
+        const btnLoading = document.querySelector('.btn-loading');
+        const myAlert = document.querySelector('.my-alert');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault();
+            //ketika tombol submit diklik
+            //tampilkan tombol loading, hilangkan tombol kirim
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    //tampilkan tombol kirim, hilangkan tombol loading
+                    btnLoading.classList.toggle('d-none');
+                    btnKirim.classList.toggle('d-none');
+                    //tampilkan alert
+                    myAlert.classList.toggle('d-none');
+                    //reset formnya
+                    form.reset();
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
 
   </body>
 </html>
